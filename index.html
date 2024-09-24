@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/Imagem-primeira.jpg" alt="imagem em busca de aventuras">
+            <p>Em um belo dia de domingo, constatou-se numa floresta um grande tesuro é a tua função buscá-lo.
+            <button class="btn-proximo" data-proximo="1">Buscá-lo pela mata.</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Ao andar pela floresta você se depara com um grande monstro em frente a uma caverna.</p>
+            <button class="btn-proximo" data-proximo="3">Atacar o monstro</button>
+            <button class="btn-proximo" data-proximo="2">Esconder-se e entrar sem que o mostro o veja</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você passa pelo monstro e o que te resta é achar o tesouro.</p>
+            <button class="btn-proximo" data-proximo="3">Seguir pelas águas</button>
+            <button class="btn-proximo" data-proximo="5">Explorar o caminho dos minérios</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No caminho das águas você encontra o tesouro, mas não há como mais você voltar pelo caminhou que entrou</p>
+            <button class="btn-proximo" data-proximo="4">Seguir nadando pelo rio com o tesouro</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/Desfecho-achando-o-tesouro.jpg" alt="imagem voltando da aventura com o tesouro">
+            <p>Você consegue sair da caverna pois o rio te guia a uma praia. E assim você fica milionário com o tesouro ali achado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>No caminho dos minérios você encontra muito ouro, prata e até diamante.</p>.</p>
+            <button class="btn-proximo" data-proximo="7">Explorar os minérios.</button>
+            <button class="btn-proximo" data-proximo="3">Voltar em busca do tesouro pelo caminho das águas.</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="img/Desfecho-ficando-rico-com-os-minérios.jpg" alt="Ficando rico com os minérios achados na caverna">
+            <p>Você consegue explorar muitos minérios, mas não consegue prosseguir com a aventura, portanto você fica rico com os minérios que achou.</p>
+        </main>
+        <script src="script.js"></script>
+    </body>
+    </html>
